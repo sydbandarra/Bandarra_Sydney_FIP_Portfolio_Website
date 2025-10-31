@@ -1,1 +1,40 @@
 /*# sourceMappingURL=main.css.map */
+img, embed, object, video, picture {
+  max-width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body, p, h1, h2, h3, h4, h5 {
+   margin: 0px;
+   padding: 0px;
+}
+
+.hidden {
+   display: none;
+}
+
+.box {
+   background-color: #330010;
+   color: #fde9e9;
+   border-radius: 10px;
+   padding: 75px;
+   padding-bottom: 60px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+#menu, #logo{
+    padding:45px ;
+}
+
+#hero-image{
+    padding: 75px;
+}
