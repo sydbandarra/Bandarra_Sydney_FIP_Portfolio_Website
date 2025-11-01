@@ -31,6 +31,20 @@ body, p, h1, h2, h3, h4, h5 {
    margin-bottom: 20px;
  }
 
+.hero-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#hero-textbox {
+    display: inline-flex;
+}
+
+#hero-image-slider-box {
+    display: inline-flex;
+    align-self: auto;
+}
+
 #menu, #logo{
     padding:45px ;
 }
